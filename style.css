@@ -2,6 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+h1{
+    font-size: 40px;
+}
 .flexible-container-top{
     display: flex;
     background-image: url(images/top-banner.png);
@@ -26,7 +29,7 @@ body{
     font-family: 'Pushster', cursive;
     font-weight: 300;
 }
-.owner-name{
+.clr-prf{
     color: rgb(177, 87, 14);
 }
 .btn-link{
@@ -40,4 +43,12 @@ body{
 .btn-link:hover{
     color: rgb(255, 255, 255);
     background-image: linear-gradient(rgb(182, 41, 163), rgb(4, 4, 75) );
+}
+.experience-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    position: left;
+}
+.flexible-container-exp{
+    display: flex;
 }
